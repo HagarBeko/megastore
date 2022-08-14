@@ -449,8 +449,8 @@ html {
   margin-left: 0;
 }
 
-.no-gutters>.col,
-.no-gutters>[class*="col-"] {
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -2081,7 +2081,7 @@ label {
   opacity: 1;
 }
 
-.sidebar-body-menu a>.icon {
+.sidebar-body-menu a > .icon {
   margin-right: 10px;
 }
 
@@ -2298,11 +2298,11 @@ label {
   align-items: center;
 }
 
-.main-nav-end>* {
+.main-nav-end > * {
   margin-right: 15px;
 }
 
-.main-nav-end>*:last-child {
+.main-nav-end > *:last-child {
   margin-right: 0;
 }
 
@@ -2622,7 +2622,7 @@ label {
   margin-left: -10px;
 }
 
-.stat-cards>div {
+.stat-cards > div {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -3283,7 +3283,7 @@ label {
 }
 
 .darkmode .search-wrapper input {
-  color: #d6d7e3 !important;
+  color: #d6d7e3;
   background-color: #222235;
 }
 
@@ -3336,7 +3336,7 @@ label {
 
 .darkmode .dropdown a {
   border-bottom-color: #2C2C42;
-  color: #D6D7E3 !important;
+  color: #D6D7E3;
 }
 
 .darkmode .dropdown-btn {
@@ -3358,7 +3358,7 @@ label {
 }
 
 .darkmode .stat-cards-info__num {
-  color: #EFF0F6 !important;
+  color: #EFF0F6;
 }
 
 .darkmode .chart {
@@ -3962,7 +3962,7 @@ label {
     right: -4px;
   }
 
-  .sidebar.hidden .sidebar-body-menu a>.icon {
+  .sidebar.hidden .sidebar-body-menu a > .icon {
     margin-right: 0;
   }
 
